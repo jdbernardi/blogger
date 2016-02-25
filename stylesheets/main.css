@@ -1,0 +1,94 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+div {
+
+  border: 1px solid black;
+
+}
+
+/*
+
+  ===================================
+  Grid
+  ===================================
+*/
+
+
+/*
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+     -mox-box-sizing: border-box;
+          box-sizing: border-box;
+}
+*/
+
+/*
+===========================
+Navbar
+===========================
+*/
+
+.navbar {
+  height:70px;
+}
+
+.nav-elements-container {
+  float: right;
+}
+
+.nav-elements-container .button {
+  font-size: 24px;
+  text-align: center;
+  width: 195px;
+  line-height: 70px;
+}
+
+.nav-elements-container div {
+  display: inline-block;
+}
+
+.logo-container {
+  display: inline-block;
+}
+
+/*
+===========================
+Buttons
+===========================
+*/
+
+.cta-button {
+  font-weight: bold;
+  color: white;
+  background-color: #2b78e4;
+}
+
+
+/*
+===========================
+Images
+===========================
+*/
+
+.logo-container {
+  line-height: 70px;
+  padding-left: 10px;
+  display: inline-block;
+}
+
+.logo-container img {
+  width: 45px;
+  height: 45px;
+  vertical-align: middle;
+
+}
+
+.logo-container h2 {
+  font-size: 24px;
+  display: inline-block;
+  vertical-align: middle;
+}
