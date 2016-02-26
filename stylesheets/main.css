@@ -45,6 +45,7 @@ Navbar
   text-align: center;
   width: 195px;
   line-height: 70px;
+  cursor: pointer;
 }
 
 .nav-elements-container div {
