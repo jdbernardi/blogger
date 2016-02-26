@@ -8,6 +8,32 @@ div {
 
 }
 
+.search-container {
+  margin: 30px auto;
+  width: 620px;
+}
+
+.search-container input {
+  padding: 2px;
+}
+
+.search-container .search-bar {
+  font-size: 24px;
+  line-height: 34px;
+  width: 446px;
+  border: 1px solid gray;
+  padding-left: 12px;
+}
+
+.search-container .search-submit {
+  line-height: 34px;
+  font-size: 24px;
+  border: 1px solid gray;
+  width: 136px;
+  margin-left: 14px;
+}
+
+
 /*
 
   ===================================
