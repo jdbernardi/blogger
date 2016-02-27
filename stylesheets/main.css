@@ -4,7 +4,6 @@ body {
 
 div {
 
-  border: 1px solid black;
 
 }
 
@@ -144,6 +143,8 @@ Posts
 
 .post {
   padding:40px 80px;
+  border: 2px solid #ddd;
+  margin: 40px;
 }
 
 .post h2 {
@@ -153,10 +154,15 @@ Posts
 
 .post .post-date {
   font-size: 14px;
-  text-align: right;
   color:#ccc;
   margin: 1em 0;
 }
+
+.post .post-date-text {
+  text-align: right;
+
+}
+
 
 .post .post-body {
   font-size: 16px;
@@ -176,3 +182,18 @@ Posts
 .post .write-comment {
   float: right;
 }
+
+.post .post-photo-wrapper {
+  width:100%;
+  height:450px;
+  background-color: #eee;
+}
+
+.post .post-photo-wrapper img {
+  display: block;
+  margin: auto;
+  height: 200px;
+  width: 200px;
+}
+
+.post
