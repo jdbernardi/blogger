@@ -59,6 +59,7 @@ Navbar
 
 .navbar {
   height:70px;
+  border-bottom: 3px solid #666;
 }
 
 .nav-elements-container {
@@ -75,6 +76,10 @@ Navbar
 
 .nav-elements-container div {
   display: inline-block;
+}
+
+.dropdown-menu {
+  padding:0 3px 0 0;
 }
 
 .logo-container {
